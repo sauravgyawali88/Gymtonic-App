@@ -4,7 +4,7 @@ Team Information
 Team Members:
 Saurav Gyawali (Student ID: A00301312)
 Manpreet Kaur (Student ID: A00307693)
-Abhijith (Student ID: )
+Abijith (Student ID: A00310598)
 
 Application Overview
 Introduction:
@@ -81,7 +81,7 @@ Saurav:
 Implement and execute unit tests for calorie calculation and syncing.
 Conduct exploratory testing.
 
-Abhijith:
+Abijith:
 Write and execute UI tests for step count and graph updates.
 Perform integration testing with external APIs.
 

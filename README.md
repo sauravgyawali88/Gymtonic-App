@@ -1,48 +1,54 @@
-Fitness Tracker App Testing
-Team Information
+# Fitness Tracker App Testing
 
-Team Members:
+**Group Information**
+
+# Group Members:
 Saurav Gyawali (Student ID: A00301312)
 Manpreet Kaur (Student ID: A00307693)
 Abijith (Student ID: A00310598)
 
-Application Overview
-Introduction:
+**Codebase**
+
+### Application Description
+
+### Overview:
 The Fitness Tracker App is a mobile application designed to help users monitor their physical activities, including step count, calories burned, and workout performance.
 
-Key Features:
-Monitors steps, calories burned, and workout data.
-Syncs with external fitness devices or APIs (like Google Fit, Apple Health).
-Displays activity data such as steps, calories burned, and workout stats on a user-friendly interface.
-Allows users to view past activity records and track their progress over time.
+### Key Features:
+- Monitors steps, calories burned, and workout data.
+- Syncs with external fitness devices or APIs (like Google Fit, Apple Health).
+- Displays activity data such as steps, calories burned, and workout stats on a user-friendly interface.
+- Allows users to view past activity records and track their progress over time.
 
+### Application URL
 GitHub Repository:
 https://github.com/sauravgyawali88/Gymtonic-App
 
-Strategy:
-Our testing will ensure that the app’s key functions are fully operational. The following testing methods will be employed:
+### Selection Reason
+We chose the Fitness Tracker app for testing because it includes essential features like activity tracking, data synchronization, and displaying workout information. 
+These features provide a wide range of testing opportunities, including UI, functionality, and integration tests, making it an ideal app to evaluate and ensure its performance and reliability.
 
-Unit Testing for functions like step counting and calorie calculations.
-UI Testing to check that data displays properly and the interface is responsive.
-Integration Testing to validate the app’s integration with external services like Google Fit and Apple Health.
-Performance Testing to assess the app's efficiency when managing large datasets over extended periods.
-Security Testing to ensure proper handling of sensitive user information.
+## Initial Plan 
+Our testing approach includes testing the app’s main features like tracking activities, syncing data, and displaying information.
+We’ll check if everything works correctly, test how the app performs, and make sure it’s secure and works well. 
 
-Types of Testing
+## Types of Testing
 Unit Testing:
-Calories Calculation: Verify the function responsible for calculating calories based on step data.
-Data Sync: Test the synchronization logic between the app and external fitness APIs or devices.
+- Calories Calculation: Verify the function responsible for calculating calories based on step data.
+- Data Sync: Test the synchronization logic between the app and external fitness APIs or devices.
+
 UI Testing:
-Step Count Display: Confirm that the app correctly shows the step count.
-Graph Updates: Ensure that the graphs properly update with new workout data.
+- Step Count Display: Confirm that the app correctly shows the step count.
+- Graph Updates: Ensure that the graphs properly update with new workout data.
+
 Integration Testing:
-API Integration: Test the successful integration of the app with fitness APIs, such as Google Fit or Apple Health.
+-API Integration: Test the successful integration of the app with fitness APIs, such as Google Fit or Apple Health.
+
 Security Testing:
-OAuth Login: Test the OAuth login system to ensure secure user authentication.
-Data Encryption: Verify that sensitive user data, such as activity logs, is securely stored and transmitted.
+- OAuth Login: Test the OAuth login system to ensure secure user authentication.
+- Data Encryption: Verify that sensitive user data, such as activity logs, is securely stored and transmitted.
 
-
-Testing Methods
+## Testing Methods
 Boundary Value Analysis:
 We will apply boundary value analysis to test the app’s response to extreme input values, such as very low and very high step counts or calorie calculations.
 

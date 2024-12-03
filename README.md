@@ -1,13 +1,13 @@
 # Fitness Tracker App Testing
 
-**Group Information**
+### Group Information
 
-# Group Members:
+**Group Members:**
 Saurav Gyawali (Student ID: A00301312)
 Manpreet Kaur (Student ID: A00307693)
 Abijith (Student ID: A00310598)
 
-**Codebase**
+### Codebase
 
 ### Application Description
 
@@ -28,61 +28,49 @@ https://github.com/sauravgyawali88/Gymtonic-App
 We chose the Fitness Tracker app for testing because it includes essential features like activity tracking, data synchronization, and displaying workout information. 
 These features provide a wide range of testing opportunities, including UI, functionality, and integration tests, making it an ideal app to evaluate and ensure its performance and reliability.
 
-## Initial Plan 
+### Initial Plan 
 Our testing approach includes testing the app’s main features like tracking activities, syncing data, and displaying information.
 We’ll check if everything works correctly, test how the app performs, and make sure it’s secure and works well. 
 
-## Types of Testing
-Unit Testing:
+### Types of Testing
+**Unit Testing:**
+why it is appropriate 
 - Calories Calculation: Verify the function responsible for calculating calories based on step data.
 - Data Sync: Test the synchronization logic between the app and external fitness APIs or devices.
 
-UI Testing:
+**UI Testing:**
+why it is appropriate 
 - Step Count Display: Confirm that the app correctly shows the step count.
 - Graph Updates: Ensure that the graphs properly update with new workout data.
 
-Integration Testing:
+**Integration Testing:**
+why it is appropriate 
 -API Integration: Test the successful integration of the app with fitness APIs, such as Google Fit or Apple Health.
 
-Security Testing:
+**Security Testing:**
+why it is appropriate
 - OAuth Login: Test the OAuth login system to ensure secure user authentication.
 - Data Encryption: Verify that sensitive user data, such as activity logs, is securely stored and transmitted.
 
-## Testing Methods
-Boundary Value Analysis:
+### Testing Methods
+- Boundary Value Analysis:
 We will apply boundary value analysis to test the app’s response to extreme input values, such as very low and very high step counts or calorie calculations.
 
-Exploratory Testing:
+- Exploratory Testing:
 Exploratory testing will be conducted to evaluate the app’s overall functionality, looking for UI issues, unexpected behavior, and potential usability improvements.
 
-Tools Utilized
-Testing Tools:
-Appium: Used for automating mobile app UI tests.
-JUnit: For writing and running unit tests for logic checks.
-Firebase Test Lab: For testing the app across different devices and simulating various conditions.
-
-Development Tools:
+### Development Tools:
 Android Studio: Used for building and developing the app.
 GitHub: For version control and team collaboration.
 Azure DevOps: For project management and task tracking.
 Slack: For communication and collaboration among team members.
 
-Collaboration Links
+### Collaboration Links
 GitHub Repository: Fitness Tracker App GitHub
 Azure DevOps Board: Azure DevOps Board (Insert your link here)
 Slack Workspace: Slack Workspace (Insert your link here)
 
-Initial Plan and Task Distribution
-Test Breakdown:
-Unit Tests:
-Test the calorie calculation and data sync functions.
-UI Tests:
-Ensure the app properly displays step counts and updates graphs.
-Integration Tests:
-Verify that the app integrates smoothly with external APIs like Google Fit.
-
-
-Task Assignments:
+### Task Assignments:
 Saurav:
 Implement and execute unit tests for calorie calculation and syncing.
 Conduct exploratory testing.

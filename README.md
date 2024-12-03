@@ -66,9 +66,9 @@ Azure DevOps: For project management and task tracking.
 Slack: For communication and collaboration among team members.
 
 ### Collaboration Links
-GitHub Repository: Fitness Tracker App GitHub
-Azure DevOps Board: Azure DevOps Board (Insert your link here)
-Slack Workspace: Slack Workspace (Insert your link here)
+GitHub Repository: Fitness Tracker App GitHub 
+Azure DevOps Board: Azure DevOps Board 
+Slack Workspace: Slack Workspace capstoneproje-uvd8251 
 
 ### Task Assignments:
 Saurav:
@@ -142,6 +142,9 @@ What to test:
 
 **Related Test Types:** Security Testing (valid/invalid token handling) and Performance Testing (efficiency under varying loads).
 
+### References 
+Some of the idea for testing were generated using ChatGPT, an AI language model 
+developed by OpenAI. https://chatgpt.com/ 
 
 
 

@@ -124,17 +124,22 @@ What to test:
 **1. Boundary Value Analysis**
    
 **Why:** To test edge cases for data size and input limits.
+
 **Implementation:**
+
 * Test with maximum daily activity log sizes and token payloads.
 * Validate API responses for minimum and maximum dataset sizes.
+
 **Related Test Types:** Security Testing (handling token sizes) and Performance Testing (handling extreme data limits).
 
 **2. Equivalence Partitioning**
 
 **Why:** To group similar inputs and reduce redundant test cases.
+
 **Implementation:**
 * Partition activity logs into valid and invalid groups for API testing.
 * Categorize dataset sizes into small, medium, and large for performance evaluation.
+
 **Related Test Types:** Security Testing (valid/invalid token handling) and Performance Testing (efficiency under varying loads).
 
 

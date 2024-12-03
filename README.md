@@ -128,6 +128,7 @@ Implementation:
 Test with maximum daily activity log sizes and token payloads.
 Validate API responses for minimum and maximum dataset sizes.
 Related Test Types: Security Testing (handling token sizes) and Performance Testing (handling extreme data limits).
+
 **2. Equivalence Partitioning**
 
 Why: To group similar inputs and reduce redundant test cases.

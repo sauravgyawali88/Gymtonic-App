@@ -8,7 +8,7 @@ Abijith (Student ID: A00310598)
 
 Application Overview
 Introduction:
-The Fitness Tracker App is a mobile application designed to help users monitor their physical activities, including step count, calories burned, and workout performance. It can synchronize data with fitness devices or APIs (such as Google Fit or Apple Health) and visually display the information in an accessible UI with graphs and statistics.
+The Fitness Tracker App is a mobile application designed to help users monitor their physical activities, including step count, calories burned, and workout performance.
 
 Key Features:
 Monitors steps, calories burned, and workout data.

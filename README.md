@@ -144,6 +144,171 @@ What to test:
 
 **Related Test Types:** Security Testing (valid/invalid token handling) and Performance Testing (efficiency under varying loads).
 
+# Check-In Meeting 2: Fitness Tracker App Testing 
+
+**Overview:**
+
+The second check-in meeting is a significant checkpoint for our Capstone Project. We will be showing the progress made from Check-In 1, the tests we have started working on, the problems we have faced, and plan the remaining tasks in this meeting. This meeting helps make sure that we are on track to finish the project successfully. 
+
+**Objectives:**  
+
+-Present the work we have done so far.  
+-Demonstrate the tests we have started to implement.  
+-Share Testing Implementations:  
+-Show the types of tests we have applied for and the results we have gotten so far.  
+-Discuss Challenges and Solutions:  
+-Talk about any issues we have run into and how we solved them.  
+-Plan Remaining Tasks:  
+-List the tasks that are left to do before the final submission. 
+-Assign tasks to team members to keep the ball rolling.  
+-Ensure Alignment with Course Outcomes:  
+-Make sure our work aligns with the outcomes of this course. 
+
+**Steps to Complete:**
+
+1. Coduct Group Meeting and Update Plan: 
+
+Progress Presentation: 
+
+Each member of the team will share the progress they've made since the first check-in. Here’s what we’ve done so far: 
+
+**Saurav:**  
+Added unit tests for calorie calculation based on step count. 
+Added tests to sync data with external fitness APIs such as Google Fit and Apple Health. 
+Fixed some bugs in calorie calculation integration. 
+
+**Manpreet:**  
+Worked on security tests, 
+including testing the OAuth login process and data encryption.  
+Fixed issues with token refresh mechanisms and the encryption protocol. 
+
+**Abijith:**  
+Created automated UI tests to check the update of step count display and graph. 
+Integrated the app with external APIs and verified the data sync. 
+Some UI update issues during automation.  
+
+**Challenges and Solutions:** 
+
+Challenges faced by Saurav:  
+
+Problem: This would be quite tricky to perform this task: the integration with external API for calories calculation, given data in different formats.  
+
+Solution: Accordingly, API Integration was adapted to map out matching Data fields.  
+
+  
+Abhijeeth's challenges:  
+
+Problem: The automatic tests didn't trigger UI update events, or graph refreshing.  
+
+Solution: Refactored Test script which may handle all dynamic UI objects updating the real data. 
+
+
+ Manpreet’s Challenges: 
+
+Problem: Sometimes, the OAuth token expired and wasn't refreshed properly.  
+
+Solution: Token refresh mechanism fixed and further worked with mock data for testing various scenarios. 
+
+ 
+**Plan Remaining Tasks:** 
+
+Tasks Left to Complete:   
+
+Performance Testing: Perform load and stress tests to ensure that the app works under intense use.  
+
+Security Testing: Finish up testing for SQL injection, XSS, and CSRF vulnerabilities. 
+
+Documentation: Update the README.md with progress and in-depth information about tests conducted. 
+
+  
+Assigning Tasks:  
+Saurav: Continue with unit test finalization and testing API integrations. 
+Abijith: Complete UI testing and ensure that the graphs are updated properly with API data.  
+Manpreet: Complete all security and performance tests. 
+
+
+**Meeting Minutes:** 
+
+Action Items:
+
+Saurav: Complete the unit tests for calories and API syncing. 
+
+Abijith: Wrap up UI testing and finalize API integration for graph updates. 
+
+Manpreet: Finish security tests and performance checks. Update README.md with details of our progress and tests. 
+
+
+**Meeting 2 Minutes:** 
+
+We will update our README.md file with everything discussed in the meeting: 
+
+Progress Made: Summary of the work completed since the first check-in, including the tests we've done. 
+
+Decisions Made: What challenges we faced and how we solved them. 
+
+Action Items: Tasks assigned to team members and their status. 
+
+
+**Progress Updates:** 
+
+Tasks Completed:  
+Unit Tests: We have written unit test cases for calorie calculations, and data synchronization with Fitness API. 
+UI Tests: Automated tests for Step count display and Graph updates. 
+
+Security Tests: We have tested the authorization of OAuth login and encryption of the data. 
+
+Performance Tests: Testing started for initial load and to deal with stress. 
+
+**Tests Implemented:** 
+
+Unit Testing: We checked that calorie should be correctly calculated from the Step count. 
+
+UI Testing: We tested the proper display of step count and graph updates in the app. 
+
+Security Testing: We ensured that OAuth login works and that data encryption is secure. 
+
+
+**Details of Tests Implemented:** 
+
+Testing Types and Techniques Applied: 
+
+Unit testing: For example, calculation of calories and synchronization with external API data. 
+
+UI Testing: How to assure that step count and its representation is displayed properly and updated according to the graph. 
+
+Security testing will look over OAuth login flow, Data encryption, and token management. 
+
+Code Snippets: 
+
+ 
+**Challenges Faced and Solutions Applied:** 
+
+OAuth Flow: The flow would not work properly, failing to handle the token in some cases. Solution: We fixed the refresh mechanism so that tokens do not get expired unexpectedly.  
+
+UI Automation: Due to the dynamic nature of the app, UI tests were tricky-like live updates to graphs. Solution: We made sure the test scripts could handle live data updates and sync correctly with the UI. 
+
+API Integration: The problem of syncing data from the external APIs was noticed. Solution: We mapped app data with API data so that consistency can be maintained. 
+
+
+**GitHub Commits:**  
+
+Saurav: Committed the unit tests for calorie calculation and syncing. 
+
+Abijith: Committed the UI test code for step count and graph updates. 
+
+Manpreet: Committed updates for OAuth testing and encryption checks. 
+
+
+**Update Azure DevOps Boards:** 
+
+Update Tasks: 
+
+Move completed tasks to "Done". 
+
+Update ongoing tasks with the latest progress. 
+
+Add any new tasks for remaining work. 
+
 ### References 
 Some of the idea for testing were generated using ChatGPT, an AI language model 
 developed by OpenAI. https://chatgpt.com/ 

@@ -173,19 +173,19 @@ Progress Presentation:
 Each member of the team will share the progress they've made since the first check-in. Here’s what we’ve done so far: 
 
 **Saurav:**  
-Added unit tests for calorie calculation based on step count. 
-Added tests to sync data with external fitness APIs such as Google Fit and Apple Health. 
-Fixed some bugs in calorie calculation integration. 
+* Added unit tests for calorie calculation based on step count. 
+* Added tests to sync data with external fitness APIs such as Google Fit and Apple Health. 
+* Fixed some bugs in calorie calculation integration. 
 
 **Manpreet:**  
-Worked on security tests, 
-including testing the OAuth login process and data encryption.  
-Fixed issues with token refresh mechanisms and the encryption protocol. 
+* Worked on security tests, 
+* Including testing the OAuth login process and data encryption.  
+* Fixed issues with token refresh mechanisms and the encryption protocol. 
 
 **Abijith:**  
-Created automated UI tests to check the update of step count display and graph. 
-Integrated the app with external APIs and verified the data sync. 
-Some UI update issues during automation.  
+* Created automated UI tests to check the update of step count display and graph. 
+* Integrated the app with external APIs and verified the data sync. 
+* Some UI update issues during automation.  
 
 **Challenges and Solutions:** 
 
@@ -203,11 +203,11 @@ Problem: The automatic tests didn't trigger UI update events, or graph refreshin
 Solution: Refactored Test script which may handle all dynamic UI objects updating the real data. 
 
 
- Manpreet’s Challenges: 
+ **Manpreet’s Challenges:** 
 
-Problem: Sometimes, the OAuth token expired and wasn't refreshed properly.  
+**Problem:** Sometimes, the OAuth token expired and wasn't refreshed properly.  
 
-Solution: Token refresh mechanism fixed and further worked with mock data for testing various scenarios. 
+**Solution**: Token refresh mechanism fixed and further worked with mock data for testing various scenarios. 
 
  
 **Plan Remaining Tasks:** 

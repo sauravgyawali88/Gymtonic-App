@@ -70,7 +70,7 @@ GitHub Repository: Fitness Tracker App GitHub
 
 Azure DevOps Board: https://dev.azure.com/A00307693/Fitness%20Track%20App 
 
-Slack Workspace: Slack Workspace capstoneproje-uvd8251 
+Slack Workspace: https://app.slack.com/client/T0840EBNGKA/D08352P75UN 
 
 ### Task Assignments:
 Saurav:

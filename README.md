@@ -68,7 +68,7 @@ Slack: For communication and collaboration among team members.
 ### Collaboration Links
 GitHub Repository: Fitness Tracker App GitHub 
 
-Azure DevOps Board: Azure DevOps Board 
+Azure DevOps Board: https://dev.azure.com/A00307693/Fitness%20Track%20App 
 
 Slack Workspace: Slack Workspace capstoneproje-uvd8251 
 

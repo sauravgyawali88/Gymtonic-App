@@ -1,4 +1,4 @@
-# Fitness Tracker App Testing
+# Fitness Tracker App Testing ( Check-In Meeting 1, 2 and Final)
 
 ### Group Information
 

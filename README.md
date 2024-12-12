@@ -7,8 +7,6 @@ Saurav Gyawali (Student ID: A00301312)
 Manpreet Kaur (Student ID: A00307693)
 Abijith (Student ID: A00310598)
 
-### Codebase
-
 ### Application Description
 
 ### Overview:
@@ -278,7 +276,436 @@ UI Testing: How to assure that step count and its representation is displayed pr
 
 Security testing will look over OAuth login flow, Data encryption, and token management. 
 
-Code Snippets: 
+
+**Saurav Gyawali - Unit Testing & API Integration**
+
+Test Case 1: Calorie Calculation Based on Step Count 
+
+Test Case ID: TC001 
+
+Description: Ensure the app accurately calculates calories based on step count. 
+
+Preconditions: 
+
+The app should be installed and set up. 
+
+User has inputted step data. 
+
+Test Steps: 
+
+Launch the app and log in with valid credentials.  
+
+Go to the section for activity tracking.  
+
+Input the step count.  
+
+Trigger the calculation function for calories. 
+
+Expected Results: 
+
+It calculates the number of calories to have burnt for the given steps that would be inputted within this app. 
+
+
+Test Case 2: Syncing with Google Fit 
+
+Test Case ID: TC002 
+
+Description: Confirm proper data syncing between the app and Google Fit. 
+
+Preconditions: 
+
+Google Fit account is linked to the app. 
+
+The app has permission to access the Google Fit API. 
+
+Test Steps: 
+
+Open the app and log in. 
+
+Navigate to the “Sync with Google Fit” option. 
+
+Select “Sync Now”. 
+
+Verify that the step count, calories, and workout data are accurately synced from Google Fit. 
+
+Expected Results: 
+
+The app should correctly sync step data, calories burned, and workouts from Google Fit to the app’s dashboard. 
+
+
+Test Case 3: API Integration for Calories Calculation 
+
+Test Case ID: TC003 
+
+Description: Validate API integration for retrieving step data and calculating calories 
+
+Preconditions: 
+
+The user has an external fitness device (e.g., Fitbit). 
+
+The app is connected to the device’s API. 
+
+Test Steps: 
+
+Open the app and connect to the external fitness device via Bluetooth. 
+
+Allow the app to retrieve step data from the device. 
+
+Ensure the step data is received correctly. 
+
+Calculate the calories based on the received step data. 
+
+Expected Results: 
+
+The app should retrieve step data from the fitness device accurately. 
+
+The app should compute the correct number of calories based on the step count. 
+
+
+Test Case 4: Handling Edge Case for Calorie Calculation 
+
+Test Case ID: TC004 
+
+Description: Test the app’s response when calculating calories from an extremely high step count. 
+
+Preconditions: 
+
+The app is set up for calorie calculation. 
+
+The user inputs an exceptionally high step count  
+
+Test Steps: 
+
+Open the app and log in. 
+
+Navigate to the activity tracking section. 
+
+Enter a large step count  
+
+Activate the calorie calculation feature. 
+
+Expected Results: 
+
+The app should process large inputs without crashing. 
+
+The app should return a valid calorie count based on the high step count. 
+
+
+Test Case 5: Syncing with Apple Health 
+
+Test Case ID: TC005 
+
+Description: Verify syncing of data between the app and Apple Health. 
+
+Preconditions: 
+
+The user has linked their Apple Health account with the app. 
+
+The app has permission to access Apple Health data. 
+
+Test Steps: 
+
+Open the app and log in. 
+
+Navigate to the “Sync with Apple Health” option. 
+
+Click on “Sync Now”. 
+
+Verify that step count, calories, and workout data are correctly synced from Apple Health to the app. 
+
+Expected Results: 
+
+The app should sync and display the correct step count, calories burned, and workout data from Apple Health. 
+
+**Abijith - UI Testing**
+
+Test Case 1: Step Count Display on Dashboard 
+
+Test Case ID: TC006 
+
+Description: Verify that the app displays the correct step count on the dashboard. 
+
+Preconditions: 
+
+The app is installed and active. 
+
+The user has recorded step data. 
+
+Test Steps: 
+
+Open the app and log in. 
+
+Navigate to the dashboard section. 
+
+Verify if the step count is displayed accurately. 
+
+Expected Results: 
+
+The app should show the correct step count on the dashboard, matching the user’s recorded data. 
+
+
+Test Case 2: Graph Update After Data Sync 
+
+Test Case ID: TC007 
+
+Description: Ensure that the graph updates after new workout data is synced. 
+
+Preconditions: 
+
+The user has synced step and workout data. 
+
+Test Steps: 
+
+Open the app and log in. 
+
+Sync new workout data (e.g., step count, calories burned). 
+
+Check if the graph updates accordingly with the new data. 
+
+Expected Results: 
+
+The graph should display the newly synced workout data correctly. 
+
+
+Test Case 3: UI Layout During Data Sync 
+
+Test Case ID: TC008 
+
+Description: Verify the UI layout when syncing data with an external API or device. 
+
+Preconditions: 
+
+The app is connected to an external API or fitness device. 
+
+Test Steps: 
+
+Open the app and log in. 
+
+Initiate synchronization with the external API or device. 
+
+Confirm that the app displays a loading indicator during the sync process. 
+
+Check if the app shows a success or error message after sync completion. 
+
+Expected Results: 
+
+The UI should show an appropriate loading indicator during data sync. 
+
+Upon completion, it should display a success or error message. 
+
+
+Test Case 4: UI Responsiveness for Multiple Entries 
+
+Test Case ID: TC009 
+
+Description: Test the UI’s responsiveness when multiple data entries are recorded simultaneously. 
+
+Preconditions: 
+
+The app is active and multiple workout sessions have been recorded. 
+
+Test Steps: 
+
+Open the app and log in. 
+
+Record multiple workout sessions (e.g., different activities or step counts). 
+
+Observe how the UI handles and displays these entries. 
+
+Expected Results: 
+
+The UI should remain responsive and update correctly as new entries are recorded. 
+
+
+Test Case 5: Graph Display for Multiple Workouts 
+
+Test Case ID: TC010 
+
+Description: Verify that the app displays multiple workout sessions correctly on the graph. 
+
+Preconditions: 
+
+The user has multiple workout sessions recorded. 
+
+Test Steps: 
+
+Open the app and log in. 
+
+Record various workout types (e.g., walking, cycling, running). 
+
+Navigate to the graph section. 
+
+Ensure that the graph shows all the workout data clearly. 
+
+Expected Results: 
+
+The graph should accurately display multiple workout sessions, with different workout types easily distinguishable. 
+
+
+**Manpreet Kaur - Security Testing**
+
+Test Case 1: OAuth Login Flow 
+
+Test Case ID: TC011 
+
+Description: Validate the OAuth login process. 
+
+Preconditions: 
+
+The app is configured to use OAuth for login. 
+
+The user has an OAuth-compatible account 
+
+Test Steps: 
+
+Open the app and click the OAuth login button. 
+
+Select an OAuth provider 
+
+Enter the login credentials and authenticate. 
+
+Confirm successful login and redirection to the app's home screen. 
+
+Expected Results: 
+
+The user should be successfully logged in via OAuth and redirected to the home screen. 
+
+
+Test Case 2: Token Expiry and Refresh 
+
+Test Case ID: TC012 
+
+Description: Test the token expiration and refresh functionality. 
+
+Preconditions: 
+
+The user is logged in with a token-based authentication system. 
+
+The token has a known expiration time. 
+
+Test Steps: 
+
+Open the app and log in using OAuth. 
+
+Wait for the token to expire (or simulate token expiration). 
+
+Try to perform an action (e.g., sync data). 
+
+Confirm that the app refreshes the token automatically and allows the action to proceed. 
+
+Expected Results: 
+
+The app should automatically refresh the expired token and allow the user to perform actions without re-login. 
+
+
+Test Case 3: Data Encryption in Transit 
+
+Test Case ID: TC013 
+
+Description: Test data encryption during transmission. 
+
+Preconditions: 
+
+The app is connected to an external API  
+
+Test Steps: 
+
+Open the app and log in. 
+
+Sync data with an external API or device. 
+
+Use a network monitoring tool to inspect the data transmitted between the app and the API. 
+
+Expected Results: 
+
+The data transmitted should be encrypted using a secure protocol such as HTTPS. 
+
+
+Test Case 4: SQL Injection Vulnerability 
+
+Test Case ID: TC014 
+
+Description: Test if the app is vulnerable to SQL injection attacks. 
+
+Preconditions: 
+
+The app uses a backend database. 
+
+Test Steps: 
+
+Open the app and navigate to the login or data entry form. 
+
+Enter malicious SQL injection code into input fields (e.g., login form). 
+
+Try to submit the form. 
+
+Expected Results: 
+
+The app should prevent any SQL injection attempts and reject any malicious input. 
+
+The app should not expose any data or allow unauthorized access through SQL injection. 
+
+
+Test Case 5: Session Expiry and Re-authentication 
+
+Test Case ID: TC015 
+
+Description: Verify the app's handling of session expiry and the re-authentication process for users who are inactive. 
+
+Preconditions: 
+
+The user is logged in via OAuth or another authentication method. 
+
+The app has a specified session timeout period  
+
+Test Steps: 
+
+Log in to the app using OAuth or other credentials. 
+
+Remain inactive for the entire session timeout period  
+
+After the session has expired, try to access a feature that requires authentication (e.g., syncing data, viewing profile). 
+
+Check if the app requires the user to log in again or authenticate. 
+ 
+Expected Results: 
+
+Once the session times out, the app should prompt the user to log in again before allowing access to any secured features. 
+
+The app should restrict access to sensitive features after the session ends. 
+
+ **Risk Analysis Document**
+
+1. Calorie Calculation (TC001, TC004) 
+
+Risks of inaccurate calorie calculations include high step count issues and potential impact on health decisions. Mitigation strategies include testing with extreme step counts and validating the calorie calculation formula to ensure correct calculations. 
+
+2. Syncing with External APIs (Google Fit and Apple Health) (TC002, TC005) 
+
+Risks include synchronization issues, data mismatches, and incorrect external platform syncing. Potential impact includes user frustration and app's reduced usefulness. Mitigation strategies include error handling, thorough testing with Google Fit and Apple Health integrations, and retry options. 
+
+3. API Integration for External Devices (TC003) 
+
+Risks include failed external device connections and incorrect step data retrieval, potentially limiting app functionality and causing user dissatisfaction. Mitigation strategies include testing multiple devices, adding error handling, and conducting regular API integration tests to ensure compatibility. 
+
+4. Security Risks (OAuth Login, SQL Injection, Token Expiry) (TC011, TC012, TC013, TC014, TC015) 
+
+Risks identified include OAuth login issues, potential SQL injection vulnerabilities, token expiration and automatic refresh problems, and lack of encryption in data transmission. Potential impacts include unauthorized access to personal data and damage to the app's reputation. Mitigation strategies include penetration testing, encrypted data transmission, multi-factor authentication, SQL injection prevention, and token refresh functionality testing. 
+
+5. Session Management and Authentication (Session Expiry, Re-authentication) (TC015) 
+
+Risks include session expiration issues, user logout issues, and disruptive re-authentication processes. Potential impacts include frustration and loss of important user data. Mitigation strategies include clear warnings, smooth re-authentication, and thorough testing of session management functionality. 
+
+ 
+**Risk Prioritization**
+
+High risk areas include inaccurate data, data sync failure, security flaws, medium risk with API integration for external devices, UI responsiveness, and low risk with session management. These issues can lead to user dissatisfaction, privacy breaches, device sync issues, and session timeout issues. 
+
+**Code Review Process**
+
+A peer code review is a collaborative process where team members assess each other's code to ensure high quality, adherence to coding standards, and early detection of issues. Participants include Saurav Gyawali, Abijith, and Manpreet Kaur. The review process includes preparation, meeting, and feedback. Participants review code in modules such as Calorie Calculation Logic, Google Fit & Apple Health Sync, External API Integration for Device Sync, and User Authentication & Security. 
+
+The peer review process identified key issues and resolved them, ensuring code quality, security, collaboration, and early detection of defects. Next steps include integration and functional testing and planning another peer review for new features. 
 
  
 **Challenges Faced and Solutions Applied:** 
@@ -298,16 +725,6 @@ Abijith: Committed the UI test code for step count and graph updates.
 
 Manpreet: Committed updates for OAuth testing and encryption checks. 
 
-
-**Update Azure DevOps Boards:** 
-
-Update Tasks: 
-
-Move completed tasks to "Done". 
-
-Update ongoing tasks with the latest progress. 
-
-Add any new tasks for remaining work. 
 
 ### References 
 Some of the idea for testing were generated using ChatGPT, an AI language model 
